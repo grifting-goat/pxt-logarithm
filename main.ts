@@ -23,13 +23,13 @@ namespace logarithm {
      * Returns NaN if number ≤ 0.
      * @param num the number to take the logarithm of
      */
-    //% block="log base $base of $num"
+    //% block="ln $num"
     //% weight=90
     //% inlineInputMode=inline
     export function ln(num: number): number {
         if (num <= 0) {
             return NaN
         }
-        return Math.log(num) / Math.log(Math.E)
+        return Math.log(num)
     }
 }
