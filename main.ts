@@ -1,4 +1,4 @@
-//% color="#4beb36"
+//% color="#8f2929"
 namespace logarithm {
 
     /**

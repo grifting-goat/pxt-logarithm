@@ -1,6 +1,6 @@
 {
-    "name": "log",
-    "description": "",
+    "name": "logarithm",
+    "description": "simple library to allow students to use logarithms in makeCode",
     "dependencies": {
         "core": "*",
         "radio": "*",
