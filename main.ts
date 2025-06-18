@@ -3,7 +3,6 @@ namespace logarithm {
 
     /**
      * Returns the logarithm of a number with a specified base.
-     * For example, log base 10 of 100 is 2.
      * Returns NaN if base ≤ 0, base = 1, or number ≤ 0.
      * 
      * @param base the base of the logarithm (e.g. 2, 10)
@@ -17,5 +16,20 @@ namespace logarithm {
             return NaN
         }
         return Math.log(num) / Math.log(base)
+    }
+
+    /**
+     * Returns the logarithm of a number with a specified base.
+     * Returns NaN if number ≤ 0.
+     * @param num the number to take the logarithm of
+     */
+    //% block="log base $base of $num"
+    //% weight=90
+    //% inlineInputMode=inline
+    export function ln(num: number): number {
+        if (num <= 0) {
+            return NaN
+        }
+        return Math.log(num) / Math.log(Math.E)
     }
 }
