@@ -19,7 +19,7 @@ namespace logarithm {
     }
 
     /**
-     * Returns the logarithm of a number with a specified base.
+     * Returns the natural logarithm of a number
      * Returns NaN if number ≤ 0.
      * @param num the number to take the logarithm of
      */
